@@ -1,5 +1,11 @@
+.hamburger { float: left; }
+
 .global-btn { background-color: transparent; border-color: transparent; transition: all 0.3s ease-in; padding: 0; margin: 0.5em; }
 .global-btn:hover { background-color: transparent; color: #ccc; }
+
+.icon-btns li a { padding: 1.5em 1em !important; }
+
+.row-full { max-width: 72.5em; }
 
 #main-nav { background-color: #000; }
 #main-nav nav { padding: 0; }
@@ -7,5 +13,6 @@
 #main-nav nav ul li { display: inline-block; list-style: none; }
 #main-nav nav ul li a { font-size: 0.9em; padding: 1em; display: block; color: #ccc; transition: all 0.3s ease-in; }
 #main-nav nav ul li a:hover { color: #fff; }
+#main-nav .nav-icons { float: right; }
 
 /*# sourceMappingURL=main.css.map */
