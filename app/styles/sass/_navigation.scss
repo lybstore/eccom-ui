@@ -1,8 +1,30 @@
-// COLOURS 
-
-$palatteBlack: #000;
-
 
 #main-nav {
 	background-color: $palatteBlack;
+
+	nav {
+		padding: 0;
+		ul {
+			margin: 0;
+			padding: 0;
+		}
+
+		ul li {
+			display: inline-block;
+			list-style: none;
+		}
+
+		ul li a {
+			font-size: 0.9em;
+			padding: 1em;
+			display: block;
+			color: $palatteGrey;
+			transition: all 0.3s ease-in;
+
+
+			&:hover {
+				color: $palatteWhite;
+			}
+		}
+	}
 }
