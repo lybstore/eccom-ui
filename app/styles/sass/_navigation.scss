@@ -1,6 +1,6 @@
 
 #main-nav {
-	background-color: $palatteBlack;
+	//background-color: $palatteBlack;
 
 	nav {
 		padding: 0;
@@ -31,4 +31,49 @@
 	.nav-icons {
 		float: right;
 	}
+
+	// HIDDEN MOBILE MENU 
+
+	#main-nav-small {
+	
+		.mobile-menu {
+			position: absolute;
+			background-color: $palatteDarkerGrey;
+			top: 0em;
+			bottom: 0;
+			width: 30%;
+			min-width: 280px;
+
+			ul li {
+				display: block;
+				border-bottom: 1px solid #666;
+
+				//&:last-child { border-bottom: none; }
+			}
+		}
+
+		.nav-icons-container {
+			position: absolute;
+			bottom: 0em;
+			width: 100%;
+		}
+
+		.nav-icons {
+			width: 100%;
+
+			li {
+				padding-bottom: 1em;
+			}
+	
+			li a {
+				float: left;
+				display: inline;
+				padding-bottom: 0 !important;
+				padding-left: 1.8em !important;
+				padding-right: 1.8em !important;
+			}
+		}
+
+	} // MAIN NAV SMALL ENDS HERE / HIDDEN MENU
+
 }
