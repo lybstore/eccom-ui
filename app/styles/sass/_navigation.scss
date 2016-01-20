@@ -1,6 +1,14 @@
 
-#main-nav {
-	//background-color: $palatteBlack;
+#main-nav {//
+		
+	.main-nav-inner {
+		background-color: $palatteBlack;
+		display: inline-block;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		//position: fixed;
+	}
 
 	nav {
 		padding: 0;
@@ -15,7 +23,7 @@
 		}
 
 		ul li a {
-			font-size: 0.9em;
+			font-size: 0.8em;
 			padding: 1em;
 			display: block;
 			color: $palatteGrey;
@@ -41,14 +49,12 @@
 			background-color: $palatteDarkerGrey;
 			top: 0em;
 			bottom: 0;
-			width: 30%;
+			width: 29%;
 			min-width: 280px;
 
 			ul li {
 				display: block;
 				border-bottom: 1px solid #666;
-
-				//&:last-child { border-bottom: none; }
 			}
 		}
 
@@ -56,10 +62,12 @@
 			position: absolute;
 			bottom: 0em;
 			width: 100%;
+			max-width: 280px;
 		}
 
 		.nav-icons {
 			width: 100%;
+			padding: 0 1em;
 
 			li {
 				padding-bottom: 1em;
