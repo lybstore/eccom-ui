@@ -1,3 +1,18 @@
+// SITE BODY SLIDE TRANSITION 
+
+.bodySlide {
+	
+	#main-nav .main-nav-inner {
+		transition: all 0.3s ease-in;
+		left: 280px;
+	}
+
+	#main-nav .main-nav-small {
+		transition: all 0.3s ease-in;
+		left: 0;
+	}
+}
+
 .row-full {
 	max-width: 72.5em;
 }
