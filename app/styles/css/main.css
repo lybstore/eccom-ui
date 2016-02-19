@@ -5,6 +5,9 @@
 
 .icon-btns li a { padding: 1.5em 1em !important; }
 
+.bodySlide #main-nav .main-nav-inner { transition: all 0.3s ease-in; left: 280px; }
+.bodySlide #main-nav .main-nav-small { transition: all 0.3s ease-in; left: 0; }
+
 .row-full { max-width: 72.5em; }
 
 #main-nav .main-nav-inner { background-color: #000; display: inline-block; width: 100%; position: absolute; left: 0; }
@@ -20,5 +23,9 @@
 #main-nav #main-nav-small .nav-icons { width: 100%; padding: 0 1em; }
 #main-nav #main-nav-small .nav-icons li { padding-bottom: 1em; }
 #main-nav #main-nav-small .nav-icons li a { float: left; display: inline; padding-bottom: 0 !important; padding-left: 1.8em !important; padding-right: 1.8em !important; }
+
+.Store-Widget { max-width: 435px; width: 100%; }
+.Store-Widget img { max-width: 161px; max-height: 230px; width: auto; height: auto; }
+.Store-Widget .widget-content { padding: 1em; clear: right; min-width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
