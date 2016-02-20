@@ -1,5 +1,5 @@
 .Store-Widget {
-	max-width: 440px;
+	max-width: 768px;
 	width: 100%;
 	padding: 0.5em;
 	margin-left: 0;
@@ -80,7 +80,9 @@
 				padding-left: 0.5em;
 			}
 		}
+	}
 
-
+	@media #{$breakpoint-medium} {
+		max-width: 440px;
 	}
 }
