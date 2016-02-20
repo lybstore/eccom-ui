@@ -1,6 +1,5 @@
 .Store-Widget {
 	max-width: 768px;
-	width: 100%;
 	padding: 0.5em;
 	margin: 0.5em;
 	overflow: hidden;
@@ -17,7 +16,7 @@
 		max-width: 161px;
 		float: left;
 		div {
-			background-color: $palatteDarkerGrey;
+			background-color: rgba(0, 0, 0, 0.4);
 			width: 50px;
 			height: 50px;
 			margin: 80px auto;
@@ -53,9 +52,7 @@
 			color: $palatteGrey;
 			margin-bottom: 1em;
 		}
-
-		
-
+x
 		& .widget-product-count {
 			color: $palatteGrey;
 			transition: all 2s ease-in-out;
@@ -85,7 +82,6 @@
 				padding-left: 0.5em;
 			}
 		}
-
 	}
 
 	@media #{$breakpoint-medium} {

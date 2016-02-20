@@ -1,0 +1,28 @@
+@mixin font-smoothing($value: antialiased) {
+    @if $value == antialiased {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    } @else {
+        -webkit-font-smoothing: subpixel-antialiased;
+        -moz-osx-font-smoothing: auto;
+    }
+}
+
+@mixin hide-text() {
+    text-indent: -9999px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@mixin clear-fix {
+    &:after {
+        display: table;
+        content: "";
+        clear: both;
+    }
+}
+
+@mixin force-gpu() {
+    backface-visibility: hidden;
+    transform: rotate3d(0, 0, 0);
+}
