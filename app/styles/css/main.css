@@ -1,7 +1,7 @@
 .hidden-menu { float: left; }
 
 .global-btn { background-color: transparent; border-color: transparent; transition: all 0.3s ease-in; padding: 0; margin: 0.4em; }
-.global-btn:hover { background-color: transparent; color: #ccc; }
+.global-btn:hover { background-color: transparent; color: #9297A3; }
 
 .icon-btns li a { padding: 1.5em 1em !important; }
 
@@ -10,22 +10,34 @@
 
 .row-full { max-width: 72.5em; }
 
-#main-nav .main-nav-inner { background-color: #000; display: inline-block; width: 100%; position: absolute; left: 0; }
+#main-nav .main-nav-inner { background-color: #303032; display: inline-block; width: 100%; position: absolute; left: 0; }
 #main-nav nav { padding: 0; }
 #main-nav nav ul { margin: 0; padding: 0; }
 #main-nav nav ul li { display: inline-block; list-style: none; }
-#main-nav nav ul li a { font-size: 0.8em; padding: 1em; display: block; color: #ccc; transition: all 0.3s ease-in; }
+#main-nav nav ul li a { font-size: 0.8em; padding: 1em; display: block; color: #9297A3; transition: all 0.3s ease-in; }
 #main-nav nav ul li a:hover { color: #fff; }
 #main-nav .nav-icons { float: right; }
-#main-nav #main-nav-small .mobile-menu { position: absolute; background-color: #333; top: 0em; bottom: 0; width: 29%; min-width: 280px; }
+#main-nav #main-nav-small .mobile-menu { position: absolute; background-color: #333743; top: 0em; bottom: 0; width: 29%; min-width: 280px; }
 #main-nav #main-nav-small .mobile-menu ul li { display: block; border-bottom: 1px solid #666; }
 #main-nav #main-nav-small .nav-icons-container { position: absolute; bottom: 0em; width: 100%; max-width: 280px; }
 #main-nav #main-nav-small .nav-icons { width: 100%; padding: 0 1em; }
 #main-nav #main-nav-small .nav-icons li { padding-bottom: 1em; }
 #main-nav #main-nav-small .nav-icons li a { float: left; display: inline; padding-bottom: 0 !important; padding-left: 1.8em !important; padding-right: 1.8em !important; }
 
-.Store-Widget { max-width: 435px; width: 100%; }
-.Store-Widget img { max-width: 161px; max-height: 230px; width: auto; height: auto; }
-.Store-Widget .widget-content { padding: 1em; clear: right; min-width: 100%; }
+.Store-Widget { max-width: 440px; width: 100%; padding: 0; margin-left: 0; }
+.Store-Widget .widget-img { background-repeat: no-repeat; width: 100%; height: 100%; min-height: 230px; min-width: 161px; }
+.Store-Widget .widget-img span { background-color: #333743; width: 40px; height: 40px; text-align: center; }
+.Store-Widget .widget-content { padding: 1em; color: #303032; }
+.Store-Widget .widget-content a { color: #9FCEDE; font-size: 0.9em; }
+.Store-Widget .widget-content a i { padding-right: 0.5em; float: left; margin-top: 0.2em; }
+.Store-Widget .widget-content h2 { text-transform: uppercase; font-size: 2em; margin-top: 0.1em; margin-bottom: 0.5em; }
+.Store-Widget .widget-content p { font-size: 0.9em; color: #9297A3; margin-bottom: 2em; }
+.Store-Widget .widget-content .widget-count { color: #9297A3; transition: all 2s ease-in-out; }
+.Store-Widget .widget-content .widget-count a { font-size: 1em; color: #9297A3; }
+.Store-Widget .widget-content .widget-count a:hover { text-decoration: none; }
+.Store-Widget .widget-content .widget-count i { float: none; padding-right: 0; margin-top: 0; }
+.Store-Widget .widget-content .widget-link { color: #333743; float: right; font-size: 1em; }
+.Store-Widget .widget-content .widget-link:hover { text-decoration: none; }
+.Store-Widget .widget-content .widget-link i { padding-left: 0.5em; }
 
 /*# sourceMappingURL=main.css.map */
