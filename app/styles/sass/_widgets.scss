@@ -2,24 +2,27 @@
 	max-width: 768px;
 	width: 100%;
 	padding: 0.5em;
-	margin-left: 0;
+	margin: 0.5em;
 	overflow: hidden;
+	box-shadow: 3px 3px 3px rgba(151, 151, 151, 0.67);
+	font-family: 'PT Sans Narrow', sans-serif;
 
 	& .widget-img {
 		background-repeat: no-repeat;
 		background-size: 100%;
+		background-position: center;
 		width: 100%;
 		height: 100%;
-		min-height: 230px;
-		min-width: 161px;
+		min-height: 235px;
+		max-width: 161px;
 		float: left;
 		div {
 			background-color: $palatteDarkerGrey;
-			width: 40px;
-			height: 40px;
+			width: 50px;
+			height: 50px;
 			margin: 80px auto;
 			text-align: center;
-			padding: 0.7em 0;
+			padding: 0.9em 0;
 			color: $palatteWhite;
 		}
 	}
@@ -29,7 +32,7 @@
 		color: $palatteBlack;
 		a {
 			color: $palatteLightBlue;
-			font-size: 0.9em;
+			font-size: 1em;
 			i {
 				padding-right: 0.5em;
 				float: left;
@@ -40,17 +43,20 @@
 		h2 {
 			text-transform: uppercase;
 			font-size: 2em;
+			font-weight: 700;
 			margin-top: 0.1em;
 			margin-bottom: 0.5em;
 		}
 
 		p {
-			font-size: 0.9em;
+			font-size: 1em;
 			color: $palatteGrey;
-			margin-bottom: 2em;
+			margin-bottom: 1em;
 		}
 
-		& .widget-count {
+		
+
+		& .widget-product-count {
 			color: $palatteGrey;
 			transition: all 2s ease-in-out;
 			a {
@@ -58,31 +64,42 @@
 				color: $palatteGrey;
 				&:hover {
 					text-decoration: none;
+					color: $palatteDarkerGrey;
 				}
 			}
-
 			i {
 				float: none;
-				padding-right: 0;
 				margin-top: 0;
 			}
 		}
 
 		& .widget-link {
 			color: $palatteDarkerGrey;
-			float: right;
+			display: inline-block;
 			font-size: 1em;
 			&:hover {
 				text-decoration: none;
+				color: $palatteLightBlue;
 			}
-
 			i {
 				padding-left: 0.5em;
 			}
 		}
+
 	}
 
 	@media #{$breakpoint-medium} {
 		max-width: 440px;
+
+		& .widget-img { 
+			min-width: 161px;
+			max-width: 100%;
+		}
+		
+		.widget-content {
+			& .widget-link {
+				bottom: 1.2em;
+			}
+		}
 	}
 }
