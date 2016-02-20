@@ -1,20 +1,26 @@
 .Store-Widget {
 	max-width: 440px;
 	width: 100%;
-	padding: 0;
+	padding: 0.5em;
 	margin-left: 0;
+	overflow: hidden;
 
 	& .widget-img {
 		background-repeat: no-repeat;
+		background-size: 100%;
 		width: 100%;
 		height: 100%;
 		min-height: 230px;
 		min-width: 161px;
-		span {
+		float: left;
+		div {
 			background-color: $palatteDarkerGrey;
 			width: 40px;
 			height: 40px;
-			text-align: center; 
+			margin: 80px auto;
+			text-align: center;
+			padding: 0.7em 0;
+			color: $palatteWhite;
 		}
 	}
 	
