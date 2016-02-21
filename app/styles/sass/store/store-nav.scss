@@ -1,12 +1,15 @@
 .Store-Nav {
 	background-color: $palatteDarkerGrey;
 	height: 100%;
+	min-height: 800px;
 	width: 80px;
-	position: fixed;
+	position: absolute;
 	z-index: 9;
 	top: 0;
 	bottom: 0;
 	left: 0;
+	padding: 0;
+	font-family: 'PT Sans Narrow', sans-serif;
 
 	& ul {
 		margin: 0;
@@ -14,14 +17,32 @@
 
 		li {
 			text-align: center;
+			height: 130px;
+			&:nth-child(3) {
+				background-color: rgba(146, 151, 163, 0.32);
+				a {
+					color: $palatteWhite;
+				}
+			}
+
+			a {
+				color: $palatteGrey;
+				text-transform: uppercase;
+				display: block;
+				&:hover {
+					color: $palatteWhite;
+				}
+			}
 		}
 
-		li a {
-			color: $palatteGrey;
-			text-transform: uppercase;
-			&:nth-child(3) {
-				color: $palatteWhite;
-			}
+		
+		li > a > i {
+			margin: 2em 0;
+		}
+
+		li > a > span {
+			margin: 3.5em 0;
+			display: inline-block;
 		}
 	} 
 }
