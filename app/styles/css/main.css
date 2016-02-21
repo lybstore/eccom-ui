@@ -43,4 +43,10 @@ x .Store-Widget .widget-content .widget-product-count i { float: none; margin-to
   .Store-Widget .widget-img { min-width: 161px; max-width: 100%; }
   .Store-Widget .widget-content .widget-link { bottom: 1.2em; } }
 
+.Store-Nav { background-color: #333743; height: 100%; width: 80px; position: fixed; z-index: 9; top: 0; bottom: 0; left: 0; }
+.Store-Nav ul { margin: 0; padding: 0; }
+.Store-Nav ul li { text-align: center; }
+.Store-Nav ul li a { color: #9297A3; text-transform: uppercase; }
+.Store-Nav ul li a:nth-child(3) { color: #fff; }
+
 /*# sourceMappingURL=main.css.map */
